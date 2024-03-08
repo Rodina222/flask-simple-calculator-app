@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<form action="{{ url_for('calculate') }}" method="POST">
+    <div class="input">
+        <b><label for="num1">Enter input 1:</label></b>
+        <input type="number" id="num1" name="num1">
+    </div>
+  
+    <div class="input">
+        <b><label for="num2">Enter input 2:</label></b>
+        <input type="number" id="num2" name="num2">
+    </div>
+
+    <button type="submit" class="action-btn" name = "operation" value = "add"  ><b>Add</b></button>
+    <button type="submit" class="action-btn" name = "operation" value = "subtract" ><b>Subtract</b></button>
+    <button type="submit" class="action-btn" name = "operation" value = "multiply"  ><b>Multiply</b></button>
+    <button type="submit" class="action-btn" name = "operation" value = "divide" ><b>Divide</b></button></br>
+
+    <div class="result-box">
+        <label for="result"><b>Result = </b></label>
+        <input type="text" id="result" name="result" value="{{ result }}" readonly>
+    </div>
+
+</form>
+
+{% endblock %}
