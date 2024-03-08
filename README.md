@@ -9,5 +9,7 @@ This is a simple calculator app, which provides basic operations such as, additi
 2. Subtract 2 input numbers.
 3. Multiply 2 input numbers.
 4. Divide 2 input numbers with giving an error message if the divisor is zero.
+   
+ [Calculator Demo](https://drive.google.com/file/d/1MwQPwvrtHE33XbzCC3cXhS6uKhRMGhPo/view?usp=sharing)
 
 ![App Interface Image](https://github.com/Rodina222/flask-simple-calculator-app/blob/main/calculator_with_flask.png)
